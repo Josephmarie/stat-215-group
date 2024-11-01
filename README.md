@@ -13,4 +13,9 @@ Finn: autoencoder
 ## Data Splits
 - train: image1 
 - validation: image2 
-- test: image3 
+- test: image3
+
+Structure: 
+code:
+-EDA
+-Modeling
