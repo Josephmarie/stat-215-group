@@ -21,7 +21,7 @@ code:
 -Modeling
 
 
-Use the following code to load data and rename the column: 
+## Use the following code to load data and rename the column: 
 # import packages and load the data
 import pandas as pd
 import numpy as np
