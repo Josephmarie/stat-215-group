@@ -15,14 +15,14 @@ Finn: autoencoder
 - validation: image2 
 - test: image3
 
-Structure: 
-code:
--EDA
--Modeling
+## Folder Structure: 
+- code:
+  - EDA
+  - Modeling
 
 
-## Use the following code to load data and rename the column: 
-# import packages and load the data
+# Use the following code to load data and rename the column: 
+## import packages and load the data
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
