@@ -11,3 +11,6 @@ dependencies:
     - scikit-learn
     - jupyterlab
     - pytorch
+    - torch
+    - torchvision
+    - lightning

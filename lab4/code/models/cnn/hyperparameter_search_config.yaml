@@ -1,0 +1,21 @@
+method: bayes
+metric:
+  goal: maximize
+  name: loss
+parameters:
+  learning_rate:
+    distribution: log_uniform
+    max: 0.1
+    min: 1e-6
+  weight_decay:
+    distribution: log_uniform
+    max: 0.1
+    min: 1e-6
+  feature_set:
+    values: ["all", "raw_only", "engineered_only"]
+  image_augmentation:
+    values: [true, false]
+  max_epochs:
+    value: 100
+  patience:
+    value: 10
