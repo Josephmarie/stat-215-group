@@ -1,0 +1,2 @@
+best_score,best_params
+0.8575863076398695,"{'bootstrap': True, 'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 200}"
